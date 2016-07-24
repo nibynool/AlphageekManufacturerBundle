@@ -34,7 +34,8 @@
         "squizlabs/php_codesniffer": "~2.6",
         "phpmd/phpmd": "~2.4",
         "phing/phing": "~2",
-        "phpdocumentor/phpdocumentor": "~2.9"
+        "phpdocumentor/phpdocumentor": "~2.9",
+        "codeclimate/php-test-reporter": "dev-master"
     },
     "autoload": {
         "psr-4": { "Alphageek\\ManufacturerBundle\\": "" }

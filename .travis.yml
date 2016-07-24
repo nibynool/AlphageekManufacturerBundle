@@ -11,3 +11,6 @@ env:
 before_script:
     - composer require --no-dev symfony/framework-bundle:${SYMFONY_VERSION}
 script: phpunit --coverage-text
+addons:
+    code_climate:
+        repo_token: f459b90bc135719bd144859a0be2e5e9f7b6fcaf4fbb30ea4e3785ba6baa18ec
