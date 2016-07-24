@@ -1,5 +1,5 @@
 {
-    "name": "AlphaGeek/ManufacturerBundle",
+    "name": "alphageek/manufacturer-bundle",
     "description": "Database and administration functionality for product manufacturers",
     "type": "symfony-bundle",
     "homepage": "http://alphageek.com.au/projects/manufacturer",
