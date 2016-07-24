@@ -1,0 +1,42 @@
+{
+    "name": "AlphaGeek/ManufacturerBundle",
+    "description": "Database and administration functionality for product manufacturers",
+    "type": "symfony-bundle",
+    "homepage": "http://alphageek.com.au/projects/manufacturer",
+    "license": [
+        "Apache-2.0",
+        "proprietary"
+    ],
+    "authors": [
+        {
+            "name": "Michael Lambert",
+            "email": "michael@alphageek.com.au",
+            "homepage": "http://alphageek.com.au",
+            "role": "Product Owner/ Lead Developer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/nibynool/AlphageekManufacturerBundle/issues",
+        "wiki": "https://github.com/nibynool/AlphageekManufacturerBundle/wiki",
+        "source": "https://github.com/nibynool/AlphageekManufacturerBundle"
+    },
+    "require": {
+        "php": ">=5.3.9",
+        "symfony/symfony": "2.8.*",
+        "doctrine/orm": "^2.4.8",
+        "doctrine/doctrine-bundle": "~1.4",
+        "sensio/framework-extra-bundle": "^3.0.2"
+    },
+    "require-dev": {
+        "symfony/phpunit-bridge": "~2.7",
+        "phpunit/phpunit": "~5.4",
+        "phpunit/dbunit": "~2.0",
+        "squizlabs/php_codesniffer": "~2.6",
+        "phpmd/phpmd": "~2.4",
+        "phing/phing": "~2",
+        "phpdocumentor/phpdocumentor": "~2.9"
+    },
+    "autoload": {
+        "psr-4": { "Alphageek\\ManufacturerBundle\\": "" }
+    }
+}
