@@ -29,13 +29,13 @@
     },
     "require-dev": {
         "symfony/phpunit-bridge": "~2.7",
-        "phpunit/phpunit": "~5.4",
-        "phpunit/dbunit": "~2.0",
+        "phpunit/phpunit": "~4.8",
+        "phpunit/dbunit": "~1.4",
         "squizlabs/php_codesniffer": "~2.6",
         "phpmd/phpmd": "~2.4",
         "phing/phing": "~2",
         "phpdocumentor/phpdocumentor": "~2.9",
-        "codeclimate/php-test-reporter": "dev-master"
+        "codeclimate/php-test-reporter": "~0.3"
     },
     "autoload": {
         "psr-4": { "Alphageek\\ManufacturerBundle\\": "" }
