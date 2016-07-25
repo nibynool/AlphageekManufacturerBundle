@@ -1,5 +1,3 @@
-# IDE Settings & Configuration
-.idea/
 # Symfony and related files
 /build/
 /vendor/
